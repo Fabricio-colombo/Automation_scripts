@@ -1,2 +1,3 @@
-# Automation_scripts
- Automação
+Projeto de Automação com PyAutoGUI: Preenchimento Automático de Tabelas Digitais
+
+O projeto "automation_scripts" visa automatizar ações no desktop usando a biblioteca PyAutoGUI, focando no preenchimento de informações em uma tabela digital. O script inicia abrindo o navegador Chrome por meio da barra de pesquisa do sistema. Após acessar um link específico, realiza o login automaticamente fornecendo o e-mail e senha predefinidos. Em seguida, utiliza dados de um arquivo "produtos.csv" para preencher um formulário online, onde cada linha do arquivo corresponde a um produto. O preenchimento inclui campos como código, marca, tipo, categoria, preço unitário, custo e observações. O script finaliza enviando as informações e rolando a página para cima. Este projeto é útil para automação de tarefas repetitivas, economizando tempo e minimizando erros humanos.
